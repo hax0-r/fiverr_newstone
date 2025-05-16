@@ -36,8 +36,8 @@ input:user-invalid {
     border: 1.5px solid rgba(255, 0, 0, 0.416);
 }
 
-.homeBanner{
-    background: linear-gradient(rgba(0, 0, 0, 0.425),rgba(0, 0, 0, 0.432)), url(./assets/banner.jpg) center/cover no-repeat;
+.homeBanner {
+    background: linear-gradient(rgba(0, 0, 0, 0.226), rgba(0, 0, 0, 0.253)), url(./assets/banner.jpg) center/cover no-repeat;
 }
 
 .swiper-button-prev:after,
@@ -60,4 +60,14 @@ input:user-invalid {
 .swiper-button-prev {
     position: relative !important;
     margin-top: 32px;
+}
+
+.textShadow {
+    color: #fff;
+    /* Black text */
+    text-shadow:
+        0 0 5px #00000041,
+        0 0 10px #00000041,
+        0 0 15px #00000041,
+        0 0 20px #00000041;
 }
