@@ -22,21 +22,6 @@ footer.innerHTML = `
                     <li><a href="#howitwork" class=" text-gray-800 hover:text-[#3da1b9] transition-all duration-500">How
                             It Work</a></li>
                 </ul>
-                <div class="flex space-x-10 justify-center items-center mb-14">
-                    <a data-aos="fade-up"  href="#" class="block  text-gray-700 transition-all duration-500 hover:text-[#3da1b9] ">
-                        <i class="fa-brands fa-x-twitter md:text-3xl text-2xl"></i>
-                    </a>
-                    <a data-aos="fade-up" data-aos-delay="100"  href="#" class="block  text-gray-700 transition-all duration-500 hover:text-[#3da1b9] ">
-                        <i class="fa-brands fa-youtube md:text-3xl text-2xl"></i>
-                    </a>
-                    <a data-aos="fade-up" data-aos-delay="200"  href="#" class="block  text-gray-700 transition-all duration-500 hover:text-[#3da1b9] ">
-                        <i class="fa-brands fa-instagram md:text-3xl text-2xl"></i>
-                    </a>
-                    <a data-aos="fade-up" data-aos-delay="300"  href="#" class="block  text-gray-700 transition-all duration-500 hover:text-[#3da1b9] ">
-                        <i class="fa-brands fa-facebook-f md:text-3xl text-2xl"></i>
-                    </a>
-
-                </div>
                 <span class="text-lg text-gray-500 text-center block">©<a href="/index.html"
                         class="hover:underline">newstone</a> 2025,
                     All rights reserved.</span>

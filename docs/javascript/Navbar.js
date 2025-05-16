@@ -21,7 +21,7 @@ navbar.innerHTML = `
                     <li><a href="#testimonials" class="hover:text-[#3da1b9] transition-all duration-500">Testimonials
                         </a>
                     </li>
-                    <li><a href="#howitwork" class="hover:text-[#3da1b9] transition-all duration-500">How It Work
+                    <li><a href="#howitwork" class="hover:text-[#3da1b9] transition-all duration-500">How It Works
                         </a>
                     </li>
                 </ul>
@@ -70,7 +70,7 @@ navbar.innerHTML = `
                 </li>
                 <li><a href="#howitwork"
                         class="hover:text-[#3da1b9] mobileMenuCloseBtn text-nowrap transition-all duration-500">How It
-                        Work</a>
+                        Works</a>
                 </li>
             </ul>
             <a href="#contact"
