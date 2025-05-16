@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NEWSTONE</title>
+    <link rel="shortcut icon" href="/docs/assets/favicon.png" type="image/x-icon">
+    <meta name="description" content="Real state">
+    <link rel="stylesheet" href="./Docs/Style.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://unpkg.com/lenis@1.3.1/dist/lenis.css">
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+</head>
+
+<body>
+
+    <div id="bottomToTopScroll"></div>
+    <div id="navbar"></div>
+
+
+    <section class="homeBanner md:min-h-[calc(100vh-6rem)] min-h-[calc(100vh-5rem)] bg-center bg-cover">
+        <div
+            class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative text-center md:min-h-[calc(100vh-6rem)] min-h-[calc(100vh-5rem)] flex items-center justify-center flex-col">
+            <div data-aos="fade-up" 
+                class="border border-[#3da1b9] p-1 w-60 mx-auto rounded-full flex items-center justify-between md:mb-8 mb-5">
+                <span class="font-inter text-xs font-medium text-zinc-200 ml-3">Explore how to use for brands.</span>
+                <a href="javascript:;"
+                    class="w-8 h-8 rounded-full flex justify-center items-center bg-[#3da1b9]">
+                    <svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M2.83398 8.00019L12.9081 8.00019M9.75991 11.778L13.0925 8.44541C13.3023 8.23553 13.4073 8.13059 13.4073 8.00019C13.4073 7.86979 13.3023 7.76485 13.0925 7.55497L9.75991 4.22241"
+                            stroke="white" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </a>
+            </div>
+            <h1 data-aos="fade-up" data-aos-delay="100"
+                class="max-w-3xl mx-auto text-zinc-200 text-center font-semibold text-5xl text-gray-900 mb-5 md:text-7xl capitalize leading-[50px]">
+                Your trusted
+                <span class="text-[#3da1b9]">partner </span>
+            </h1>
+            <p data-aos="fade-up" data-aos-delay="200"
+                class="max-w-sm mx-auto text-center text-base font-normal leading-7 text-zinc-200 text-lg tracking-wider mb-9">
+                Navigating inheritance with ease
+            </p>
+            <a href="#services" data-aos="fade-up" data-aos-delay="300"
+                class="w-full md:w-auto md:mb-14 mb-7 inline-flex items-center justify-center py-3 px-7 text-base font-semibold text-center text-white rounded-full bg-[#3da1b9] shadow-xs hover:opacity-80 transition-all duration-500">
+                View Services
+                <svg class="ml-2" width="20" height="20" viewBox="0 0 20 20" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M7.5 15L11.0858 11.4142C11.7525 10.7475 12.0858 10.4142 12.0858 10C12.0858 9.58579 11.7525 9.25245 11.0858 8.58579L7.5 5"
+                        stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+            </a>
+        </div>
+    </section>
+
+    <section class="md:mt-36 mt-12 relative" id="about">
+        <div class="w-full max-w-7xl px-4 md:px-5 lg:px-5 mx-auto">
+            <div class="w-full justify-start items-center md:gap-12 gap-6 grid lg:grid-cols-2 grid-cols-1">
+                <div
+                    class="w-full justify-center items-start gap-6 grid sm:grid-cols-2 grid-cols-1 lg:order-first order-last">
+                    <div data-aos="fade-up" data-aos-delay="100"  class="md:pt-36 lg:justify-center sm:justify-end justify-start items-start gap-2.5 flex">
+                        <img class=" rounded-xl object-cover" src="/docs/assets/img1.avif" alt="about Us image" />
+                    </div>
+                    <img data-aos="fade-up"  class="sm:ml-0 ml-auto rounded-xl md:block hidden object-cover" src="/docs/assets/img2.avif"
+                        alt="about Us image" />
+                </div>
+                <div class="w-full flex-col justify-center lg:items-start items-center gap-10 inline-flex">
+                    <div class="w-full flex-col justify-center items-start gap-8 flex">
+                        <div class="w-full flex-col justify-start lg:items-start items-center gap-3 flex">
+                            <h2 data-aos="fade-up"
+                                class="text-gray-900 md:text-4xl text-2xl font-semibold capitalize font-manrope leading-normal lg:text-start text-center">
+                                Navigating inheritance with ease</h2>
+                            <p data-aos="fade-up" data-aos-delay="100" class="text-gray-500 text-base font-normal leading-relaxed lg:text-start text-center">
+                                At The Newstone Group LLC, we specialize in guiding heirs through the complexities of
+                                inherited real estate. Losing a loved one is difficult, and managing their property
+                                shouldn't add to the stress. We provide no-cost probate assistance, ensuring that
+                                properties are sold swiftly and efficiently, and that you receive your rightful
+                                inheritance. Our dedicated team works tirelessly to prevent foreclosure and connect you
+                                with qualified buyers, making the process smooth and worry-free. Let us help you honor
+                                your loved one's legacy.</p>
+                        </div>
+                        <div
+                            class="w-full lg:justify-start md:text-start text-center justify-center items-center sm:gap-10 gap-5 inline-flex">
+                            <div data-aos="fade-up" 
+                                class="flex-col md:justify-start justify-center  md:items-start items-center inline-flex">
+                                <h3 class="text-gray-900 md:text-4xl text-2xl font-semibold leading-normal">33+</h3>
+                                <h6 class="text-gray-500 text-base font-normal md:text-[16px] text-sm leading-relaxed">
+                                    Years of Experience</h6>
+                            </div>
+                            <div data-aos="fade-up" data-aos-delay="200"
+                                class="flex-col md:justify-start justify-center imd:tems-start items-center inline-flex">
+                                <h4 class="text-gray-900 md:text-4xl text-2xl font-semibold leading-normal">125+</h4>
+                                <h6 class="text-gray-500 text-base font-normal md:text-[16px] text-sm leading-relaxed">
+                                    Successful Projects</h6>
+                            </div>
+                            <div data-aos="fade-up" data-aos-delay="400"
+                                class="flex-col md:justify-start justify-center imd:tems-start items-center inline-flex">
+                                <h4 class="text-gray-900 md:text-4xl text-2xl font-semibold leading-normal">52+</h4>
+                                <h6 class="text-gray-500 text-base font-normal md:text-[16px] text-sm leading-relaxed">
+                                    Happy Clients</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#contact" data-aos="fade-up"
+                        class="sm:w-fit w-full px-3.5 py-2 bg-[#3da1b9] hover:opacity-80 transition-all duration-700 ease-in-out rounded-lg shadow-[0px_1px_2px_0px_rgba(16,_24,_40,_0.05)] justify-center items-center flex">
+                        <span class="px-1.5 text-white text-sm font-medium leading-6 cursor-pointer">Get in touch</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="md:mt-40 mt-14 max-w-6xl w-full mx-auto p-5" id="services">
+
+        <p data-aos="fade-up" class="text-center font-medium text-[#3da1b9]">Expert inheritance support</p>
+        <h2 data-aos="fade-up" class="text-center font-semibold md:text-4xl mt-3 text-zinc-800 max-w-2xl leading-tight mx-auto text-2xl">
+            Navigating your property journey with ease</h2>
+
+        <div class="grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1 md:mt-16 mt-8 gap-5">
+
+            <div data-aos="fade-up" class="relative w-full border border-solid border-gray-200 rounded-2xl transition-all duration-500 ">
+                <div class="block overflow-hidden">
+                    <img src="https://images.pexels.com/photos/8293744/pexels-photo-8293744.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                        class="rounded-t-2xl md:h-60 w-full object-cover" alt="Card image" />
+                </div>
+                <div class="p-4">
+                    <h4 class="text-base font-semibold text-gray-900 mb-2 capitalize transition-all duration-500 ">
+                        Probate assistance</h4>
+                    <p class="text-sm font-normal text-gray-500 transition-all duration-500 leading-5 mb-5"> Navigate
+                        the complexities of
+                        probate without stress. </p>
+                    <button
+                        class="bg-[#3da1b9] cursor-pointer hover:opacity-80 transition-all duration-500 shadow-sm rounded-full py-2 px-5 text-xs text-white font-semibold">Read
+                        More</button>
+                </div>
+            </div>
+            <div data-aos="fade-up" data-aos-delay="200"  class="relative w-full border border-solid border-gray-200 rounded-2xl transition-all duration-500 ">
+                <div class="block overflow-hidden">
+                    <img src="https://images.pexels.com/photos/1370704/pexels-photo-1370704.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                        class="rounded-t-2xl md:h-60 w-full object-cover" alt="Card image" />
+                </div>
+                <div class="p-4">
+                    <h4 class="text-base font-semibold text-gray-900 mb-2 capitalize transition-all duration-500 ">
+                        Property selling</h4>
+                    <p class="text-sm font-normal text-gray-500 transition-all duration-500 leading-5 mb-5">
+                        Effortlessly sell inherited
+                        property with our help. </p>
+                    <button
+                        class="bg-[#3da1b9] cursor-pointer hover:opacity-80 transition-all duration-500 shadow-sm rounded-full py-2 px-5 text-xs text-white font-semibold">Read
+                        More</button>
+                </div>
+            </div>
+            <div data-aos="fade-up"  data-aos-delay="400"  class="relative w-full border border-solid border-gray-200 rounded-2xl transition-all duration-500 ">
+                <div class="block overflow-hidden">
+                    <img src="https://images.pexels.com/photos/209296/pexels-photo-209296.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                        class="rounded-t-2xl md:h-60 w-full object-cover" alt="Card image" />
+                </div>
+                <div class="p-4">
+                    <h4 class="text-base font-semibold text-gray-900 mb-2 capitalize transition-all duration-500 ">
+                        Foreclosure prevention</h4>
+                    <p class="text-sm font-normal text-gray-500 transition-all duration-500 leading-5 mb-5"> Protect
+                        inherited properties
+                        from foreclosure effectively. </p>
+                    <button
+                        class="bg-[#3da1b9] cursor-pointer hover:opacity-80 transition-all duration-500 shadow-sm rounded-full py-2 px-5 text-xs text-white font-semibold">Read
+                        More</button>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <div class="bg-zinc-50 md:mt-20 mt-12" id="team">
+        <section class="md:py-24 py-10 max-w-6xl w-full mx-auto p-5">
+
+            <p data-aos="fade-up"  class="text-center font-medium text-[#3da1b9]">Our experts</p>
+            <h2 data-aos="fade-up" 
+                class="text-center font-semibold md:text-4xl mt-3 text-zinc-800 max-w-2xl leading-tight mx-auto text-2xl">
+                Guiding you through every step</h2>
+            <div class="grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1 md:mt-16 mt-8 gap-5">
+                <div data-aos="fade-up" 
+                    class="group bg-white shadow-lg w-full shadow-gray-200 rounded-xl p-2.5 transition-all duration-500 w-1/2 hover:shadow-gray-300">
+                    <div class="rounded-3xl ">
+                        <img src="https://images.pexels.com/photos/3184611/pexels-photo-3184611.jpeg?auto=compress&cs=tinysrgb&w=600"
+                            alt="image" class="rounded-xl w-full h-auto relative z-10 shadow-lg shadow-stone-300">
+                    </div>
+                    <div class="flex flex-col justify-center pt-6 p-2">
+                        <h4 class="font-semibold text-xl text-gray-900 ">David Wurzel</h4>
+                        <p class="text-base font-medium text-gray-500 mt-1 mb-4">Real Estate Specialist</p>
+                        <p class="text-gray-500 mb-4">David specializes in inherited properties, providing empathetic
+                            support to clients throughout the sales process.</p>
+                        <button
+                            class="rounded-lg py-2.5 px-6 text-center w-full text-white bg-[#3da1b9] cursor-pointer transition-all duration-500 hover:opacity-80">Read
+                            More</button>
+                    </div>
+                </div>
+                <div data-aos="fade-up" data-aos-delay="200" 
+                    class="group bg-white shadow-lg w-full shadow-gray-200 rounded-xl p-2.5 transition-all duration-500 w-1/2 hover:shadow-gray-300">
+                    <div class="rounded-3xl ">
+                        <img src="https://images.pexels.com/photos/927022/pexels-photo-927022.jpeg?auto=compress&cs=tinysrgb&w=600"
+                            alt="image" class="rounded-xl w-full h-auto relative z-10 shadow-lg shadow-stone-300">
+                    </div>
+                    <div class="flex flex-col justify-center pt-6 p-2">
+                        <h4 class="font-semibold text-xl text-gray-900 ">Jane Patron</h4>
+                        <p class="text-base font-medium text-gray-500 mt-1 mb-4">Probate Advisor</p>
+                        <p class="text-gray-500 mb-4">Jane guides clients through the probate process, ensuring they
+                            understand their rights and options.</p>
+                        <button
+                            class="rounded-lg py-2.5 px-6 text-center w-full text-white bg-[#3da1b9] cursor-pointer transition-all duration-500 hover:opacity-80">Read
+                            More</button>
+                    </div>
+                </div>
+                <div data-aos="fade-up" data-aos-delay="400" 
+                    class="group bg-white shadow-lg w-full shadow-gray-200 rounded-xl p-2.5 transition-all duration-500 w-1/2 hover:shadow-gray-300">
+                    <div class="rounded-3xl ">
+                        <img src="https://images.pexels.com/photos/834863/pexels-photo-834863.jpeg?auto=compress&cs=tinysrgb&w=600"
+                            alt="image" class="rounded-xl w-full h-auto relative z-10 shadow-lg shadow-stone-300">
+                    </div>
+                    <div class="flex flex-col justify-center pt-6 p-2">
+                        <h4 class="font-semibold text-xl text-gray-900 ">Michael Humphry</h4>
+                        <p class="text-base font-medium text-gray-500 mt-1 mb-4">Property Consultant</p>
+                        <p class="text-gray-500 mb-4">Michael maximizes property value for clients, utilizing strategic
+                            marketing and negotiation skills.</p>
+                        <button
+                            class="rounded-lg py-2.5 px-6 text-center w-full text-white bg-[#3da1b9] cursor-pointer transition-all duration-500 hover:opacity-80">Read
+                            More</button>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </div>
+
+    <section class="md:mt-28 mt-16" id="testimonials">
+        <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+            <div
+                class="flex justify-center items-center gap-y-8 lg:gap-y-0 flex-wrap md:flex-wrap lg:flex-nowrap lg:flex-row lg:justify-between lg:gap-x-8 max-w-sm sm:max-w-2xl lg:max-w-full mx-auto">
+                <div class="w-full lg:w-2/5" data-aos="fade-right">
+                    <span class="text-gray-500 md:text-start text-center mb-4 block">What our clients say</span>
+                    <h2
+                        class="md:text-4xl text-2xl capitalize md:text-start text-center font-semibold text-gray-900 md:leading-[3.25rem] mb-8">
+                        Your trusted
+                        partner in <span class=" text-[#3da1b9]">real
+                            estate</span>
+                    </h2>
+                    <!-- Slider controls -->
+                    <div class="flex items-center justify-center lg:justify-start gap-8">
+                        <button id="slider-button-left"
+                            class="swiper-button-prev group flex justify-center items-center border-2 border-solid border-[#3da1b9] !w-12 !h-12 transition-all duration-500 rounded-full hover:bg-[#3da1b9]"
+                            data-carousel-prev>
+                            <i class="fa-solid fa-arrow-left text-lg text-[#3da1b9] group-hover:text-white"></i>
+                        </button>
+                        <button id="slider-button-right"
+                            class="swiper-button-next group flex justify-center items-center border-2 border-solid border-[#3da1b9] !w-12 !h-12 transition-all duration-500 rounded-full hover:bg-[#3da1b9] "
+                            data-carousel-next>
+                            <i class="fa-solid fa-arrow-right text-lg text-[#3da1b9] group-hover:text-white"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="w-full lg:w-3/5" data-aos="fade-left">
+                    <!--Slider wrapper-->
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+
+
+                            <div
+                                class="swiper-slide group bg-white border border-gray-300 rounded-2xl max-sm:max-w-sm max-sm:mx-auto p-6 transition-all duration-500 hover:border-[#3da1b9]">
+                                <div class="flex items-center gap-5 mb-5 ">
+                                    <img class="rounded-full h-14 w-14 object-cover"
+                                        src="https://cdn.b12.io/client_media/T5ZuuwDW/aa50c430-30cf-11f0-a486-0242ac110002-jpg-regular_image.jpeg"
+                                        alt="avatar">
+                                    <div class="grid gap-1">
+                                        <h5 class="text-gray-900 font-medium transition-all duration-500  ">Chris Wei
+                                        </h5>
+                                        <span class="text-sm leading-6 text-gray-500">Local Business Owner </span>
+                                    </div>
+                                </div>
+                                <div
+                                    class="flex items-center mb-5 sm:mb-5 gap-2 text-amber-500 transition-all duration-500  ">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <p
+                                    class="text-sm text-gray-500 leading-6 transition-all duration-500 min-h-24 group-hover:text-gray-800">
+                                    When I inherited my grandmother's house, I felt overwhelmed by the responsibilities
+                                    that came with it. The Newstone Group LLC stepped in and took charge, providing me
+                                    with expert advice and support throughout the entire process. They handled the
+                                    probate for free and found a buyer for the property quickly. I was amazed at how
+                                    efficiently everything was managed, allowing me to focus on my family during a
+                                    challenging time. I highly recommend their services to anyone in a similar
+                                    situation.
+                                </p>
+
+                            </div>
+                            <div
+                                class="swiper-slide group bg-white border border-solid border-gray-300 rounded-2xl max-sm:max-w-sm max-sm:mx-auto p-6 transition-all duration-500 hover:border-[#3da1b9]">
+                                <div class="flex items-center gap-5 mb-5 ">
+                                    <img class="rounded-full object-cover"
+                                        src="https://pagedone.io/asset/uploads/1696229994.png" alt="avatar">
+                                    <div class="grid gap-1">
+                                        <h5 class="text-gray-900 font-medium transition-all duration-500  ">Brandon Vega
+                                        </h5>
+                                        <span class="text-sm leading-6 text-gray-500">Independent Real Estate Investor
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="flex items-center mb-5 gap-2 text-amber-500 transition-all duration-500  ">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <p
+                                    class="text-sm text-gray-500 leading-6 transition-all duration-500 min-h-24 group-hover:text-gray-800">
+                                    The Newstone Group LLC helped me navigate the complexities of inheriting my family's
+                                    property after my father's passing. Their team was incredibly supportive and
+                                    knowledgeable, guiding me through the probate process at no cost. I was worried I
+                                    might lose the property due to foreclosure, but they ensured everything was handled
+                                    smoothly. With their help, I sold the property quickly and received my inheritance
+                                    without any hassle. I couldn't have done this without them!
+                                </p>
+
+                            </div>
+                            <div
+                                class="swiper-slide group bg-white border border-solid border-gray-300 rounded-2xl max-sm:max-w-sm max-sm:mx-auto p-6 transition-all duration-500 hover:border-[#3da1b9]">
+                                <div class="flex items-center gap-5 mb-5 sm:mb-5">
+                                    <img class="rounded-full object-cover w-14 h-14"
+                                        src="https://cdn.b12.io/media/56b2d736-3cb3-11e8-9f2d-0242ac11000f-jpg-regular_image.jpeg"
+                                        alt="avatar">
+                                    <div class="grid gap-1">
+                                        <h5 class="text-gray-900 font-medium transition-all duration-500  ">Karen Weiss
+                                        </h5>
+                                        <span class="text-sm leading-6 text-gray-500">Community Volunteer </span>
+                                    </div>
+                                </div>
+                                <div
+                                    class="flex items-center mb-5 sm:mb-5 gap-2 text-amber-500 transition-all duration-500  ">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <p
+                                    class="text-sm text-gray-500 leading-6 transition-all duration-500 min-h-24  group-hover:text-gray-800">
+                                    Inheriting a property can be a daunting experience, but The Newstone Group LLC made
+                                    it so much easier for me. They expertly navigated the probate process without any
+                                    cost and ensured that I didn't lose my late aunt's home to foreclosure. Their team
+                                    found a buyer promptly, and I was able to receive my inheritance in a timely manner.
+                                    I am truly grateful for their professionalism and dedication, and I would recommend
+                                    them to anyone facing similar circumstances.
+                                </p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="md:mt-32 mt-10 max-w-6xl w-full mx-auto p-5" id="howitwork">
+        <p data-aos="fade-up" class="text-center font-medium text-[#3da1b9]">Simple steps to relief</p>
+        <h2 data-aos="fade-up" class="text-center font-semibold md:text-4xl mt-3 text-zinc-800 max-w-2xl leading-tight mx-auto text-2xl">
+            Guiding you through the process</h2>
+        <div  class="grid md:grid-cols-2 grid-cols-1 md:mt-16 mt-8 gap-5">
+            <div data-aos="fade-up" class="rounded-xl bg-white shadow-lg shadow-gray-300 overflow-hidden">
+                <img src="https://images.pexels.com/photos/210617/pexels-photo-210617.jpeg?auto=compress&cs=tinysrgb&w=600"
+                    alt="image">
+                <div class="w-full p-6 ">
+                    <h5 class="text-xl font-semibold font-manrope text-gray-900 mb-4">Probate assistance</h5>
+                    <p class="font-medium text-gray-600"> Simplifying probate for heirs with expert guidance and
+                        support. </p>
+                    <a href="" class="text-gray-600 underline block mt-3 font-medium">Learn More</a>
+                </div>
+            </div>
+            <div data-aos="fade-up" data-aos-delay="200"  class="rounded-xl bg-white shadow-lg shadow-gray-300 overflow-hidden">
+                <img src="https://images.pexels.com/photos/277667/pexels-photo-277667.jpeg?auto=compress&cs=tinysrgb&w=600"
+                    alt="image">
+                <div class="w-full p-6 ">
+                    <h5 class="text-xl font-semibold font-manrope text-gray-900 mb-4">Property selling</h5>
+                    <p class="font-medium text-gray-600"> Expert assistance in selling inherited properties with ease.
+                    </p>
+                    <a href="" class="text-gray-600 underline block mt-3 font-medium">Learn More</a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="md:mt-32 mt-10" id="contact">
+        <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+            <div class="grid lg:grid-cols-2 grid-cols-1">
+                <div class="lg:mb-0 mb-10" data-aos="fade">
+                    <div class="group w-full h-full">
+                        <div class="relative h-full">
+                            <iframe
+                                class="w-full h-full lg:rounded-l-2xl min-h-[25rem] rounded-2xl bg-blend-multiply object-cover"
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22061651.420778904!2d1.002981690637884!3d47.54691410847276!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46ed8886cfadda85%3A0x72ef99e6b3fcf079!2sEurope!5e0!3m2!1sen!2s!4v1747368499528!5m2!1sen!2s"
+                                style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            <div class="absolute bottom-0 w-full lg:p-11 p-5">
+                                <div class="bg-white rounded-lg md:px-6 py-6 px-4 block">
+                                    <a href="tel:+9046026565" class="flex items-center mb-6">
+                                        <i class="fa-solid text-[#3da1b9] text-lg fa-phone"></i>
+                                        <h5 class="text-black text-base font-normal leading-6 ml-5">(904) 602-6565</h5>
+                                    </a>
+                                    <a href="mailto:truthfinder0100@qmail.com" class="flex items-center mb-6">
+                                        <i class="fa-regular text-[#3da1b9] text-xl fa-envelope"></i>
+                                        <h5 class="text-black text-base font-normal leading-6 ml-5">
+                                            truthfinder0100@qmail.com</h5>
+                                    </a>
+                                    <a href="javascript:;" class="flex items-center">
+                                        <i class="fa-solid text-[#3da1b9] text-lg fa-location-dot"></i>
+                                        <h5 class="text-black text-base font-normal leading-6 ml-5">P.O. Box 46341
+                                            Tampa,
+                                            FL 33646 USA</h5>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-zinc-50 p-5 lg:p-11 lg:rounded-r-2xl rounded-2xl">
+                    <p data-aos="fade-up" class="font-medium text-[#3da1b9]">Simple steps to relief</p>
+                    <h2 data-aos="fade-up" class="text-zinc-800 mt-3 capitalize md:text-3xl text-2xl font-semibold leading-10 mb-8">We're
+                        here to
+                        assist
+                        you today!</h2>
+                    <form action="">
+                        <input data-aos="fade-up" required type="text"
+                            class="w-full h-12 text-gray-600 placeholder-gray-400  bg-transparent text-lg font-normal leading-7 rounded-lg border border-gray-200 focus:outline-none pl-4 mb-5"
+                            placeholder="Name">
+                        <input data-aos="fade-up" required type="text"
+                            class="w-full h-12 text-gray-600 placeholder-gray-400 bg-transparent text-lg font-normal leading-7 rounded-lg border border-gray-200 focus:outline-none pl-4 mb-5"
+                            placeholder="Email">
+                        <input data-aos="fade-up" required type="text"
+                            class="w-full h-12 text-gray-600 placeholder-gray-400 bg-transparent text-lg font-normal leading-7 rounded-lg border border-gray-200 focus:outline-none pl-4 mb-5"
+                            placeholder="Phone">
+                        <textarea data-aos="fade-up" rows="7"
+                            class="w-full text-gray-600 placeholder-gray-400 bg-transparent text-lg font-normal leading-7 rounded-lg border border-gray-200 focus:outline-none p-3 mb-2"
+                            placeholder="Message"></textarea>
+                        <div data-aos="fade-up" class="">
+                            <input type="checkbox" id="check">
+                            <label class="text-sm cursor-pointer text-zinc-600" for="check">I allow this website to
+                                store my submission so they
+                                can respond to my inquiry.</label>
+                        </div>
+                        <button data-aos="fade-up"
+                            class="w-full h-12 text-white text-base mt-5 font-semibold leading-6 rounded-lg transition-all duration-700 hover:opacity-80 cursor-pointer bg-[#3da1b9]">Submit</button>
+                    </form>
+                </div>
+            </div>
+    </section>
+
+    <section class="md:mt-10 mt-5">
+        <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+            <div class="grid xl:grid-cols-7 lg:grid-cols-4 md:grid-cols-3 grid-cols-2 gap-2 grid-cols-1">
+                <div data-aos="fade-up" 
+                    class="w-full py-3 px-2 rounded-lg border-2 border-zinc-200 flex flex-col justify-center items-center">
+                    <h3 class="text-center text-lg font-medium text-zinc-800 tracking-wider">Monday</h3>
+                    <i class="fa-regular fa-clock md:text-6xl text-5xl text-zinc-600 py-4 "></i>
+                    <p class="text-center text-zinc-600">9:00am – 5:00pm</p>
+                </div>
+                <div data-aos="fade-up" data-aos-delay="100" 
+                    class="w-full py-3 px-2 rounded-lg border-2 border-zinc-200 flex flex-col justify-center items-center">
+                    <h3 class="text-center text-lg font-medium text-zinc-800 tracking-wider">Tuesday</h3>
+                    <i class="fa-regular fa-clock md:text-6xl text-5xl text-zinc-600 py-4 "></i>
+                    <p class="text-center text-zinc-600">9:00am – 5:00pm</p>
+                </div>
+                <div data-aos="fade-up" data-aos-delay="200" 
+                    class="w-full py-3 px-2 rounded-lg border-2 border-zinc-200 flex flex-col justify-center items-center">
+                    <h3 class="text-center text-lg font-medium text-zinc-800 tracking-wider">Wednesday</h3>
+                    <i class="fa-regular fa-clock md:text-6xl text-5xl text-zinc-600 py-4 "></i>
+                    <p class="text-center text-zinc-600">9:00am – 5:00pm</p>
+                </div>
+                <div data-aos="fade-up" data-aos-delay="300" 
+                    class="w-full py-3 px-2 rounded-lg border-2 border-zinc-200 flex flex-col justify-center items-center">
+                    <h3 class="text-center text-lg font-medium text-zinc-800 tracking-wider">Thursday</h3>
+                    <i class="fa-regular fa-clock md:text-6xl text-5xl text-zinc-600 py-4 "></i>
+                    <p class="text-center text-zinc-600">9:00am – 5:00pm</p>
+                </div>
+                <div data-aos="fade-up" data-aos-delay="400" 
+                    class="w-full py-3 px-2 rounded-lg border-2 border-zinc-200 flex flex-col justify-center items-center">
+                    <h3 class="text-center text-lg font-medium text-zinc-800 tracking-wider">Friday </h3>
+                    <i class="fa-regular fa-clock md:text-6xl text-5xl text-zinc-600 py-4 "></i>
+                    <p class="text-center text-zinc-600">9:00am – 5:00pm</p>
+                </div>
+                <div data-aos="fade-up" data-aos-delay="500" 
+                    class="w-full py-3 px-2 rounded-lg border-2 border-zinc-200 flex flex-col justify-center items-center">
+                    <h3 class="text-center text-lg font-medium text-zinc-800 tracking-wider">Saturday</h3>
+                    <i class="fa-regular fa-clock md:text-6xl text-5xl text-zinc-600 py-4 "></i>
+                    <p class="text-center text-zinc-600">9:00am – 6:00pm</p>
+                </div>
+                <div data-aos="fade-up" data-aos-delay="600" 
+                    class="w-full sm:col-span-1 col-span-2 py-3 px-2 rounded-lg border-2 border-zinc-200 flex flex-col justify-center items-center">
+                    <h3 class="text-center text-lg font-medium text-zinc-800 tracking-wider">Sunday</h3>
+                    <i class="fa-regular fa-clock md:text-6xl text-5xl text-zinc-600 py-4 "></i>
+                    <p class="text-center text-zinc-600">9:00am – 12:00pm</p>
+                </div>
+            </div>
+    </section>
+
+    <div class="md:mt-16 mt-10" id="footer"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/lenis@1.3.1/dist/lenis.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script src="./Docs/javascript/global.js"></script>
+    <script src="./Docs/javascript/Navbar.js"></script>
+    <script src="./Docs/javascript/Footer.js"></script>
+
+</body>
+
+</html>
